@@ -1,0 +1,53 @@
+.menu_zone {
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #ffe; /* Цвет фона */ 
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #FFB6C1;
+    float: left;
+    width: 12%;
+    min-width: 120px;
+    margin: 0%;
+    align-items: center;
+    position: fixed;
+    text-align: center;
+}
+/*
+.additional_menu_zone {
+    padding: 10px;
+    background: #ffe;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid #FF6347;
+    float: right;
+    width: 12%;
+    min-width: 100px;
+    margin-left: 50%;
+    align-items: center;
+    position: fixed;
+}
+*/
+
+.icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #FF6347;
+    background: #FF7F50; /* Фоновый цвет и фоновый рисунок*/
+    margin: auto; /* Выравниваем по центру */
+}
+
+img.icon_img {
+    padding: 15%;
+    width: 70%;
+}
+
+button.menu_button {
+    border-radius: 15px 15px 15px 15px;
+    width: 50%;
+    min-width: 110px;
+    border: solid 1px rgb(237, 145, 145);
+    padding: 5px;
+    font-size: 12pt;
+    font-family:'Comic Sans MS', sans-serif;
+    margin-top: 5px;
+}
+

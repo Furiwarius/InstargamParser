@@ -1,0 +1,87 @@
+body {
+    height: 100%;
+    background-size: cover;
+    background: #FFFFE0 url(../img/background2.jpg); /* Фоновый цвет и фоновый рисунок*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    margin: 0%;
+  }
+
+.page { 
+  min-height: 100vh;
+  max-width: 70%;
+  margin: auto; /* Выравниваем по центру */
+  }
+
+.newsline {
+  background-color: #FFA07A;
+  min-height: 100vh;
+  width: 62%;
+  min-width: 400px;
+  margin: auto;
+  border-radius: 15px 15px 0px 0px;
+  border: 2px solid #FFB6C1;
+  }
+
+h1 {
+  color: #312F2F; /* Цвет заголовка */
+  text-align: center;
+  padding-top: 1%;
+  font-stretch: condensed;
+  font-size: 16pt; /* Размер шрифта в пунктах */
+  font-family:'Comic Sans MS', sans-serif; /* Семейство шрифтов */
+  font-weight: 700; /* Нормальное начертание текста  */
+  }
+
+h3 {
+  text-align: center;
+  color: #a52a2a; /* Цвет заголовка */
+  font-size: 12pt; /* Размер шрифта в пунктах */
+  font-family:'Comic Sans MS', sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  }
+
+h3.name_account {
+  text-align: center;
+  color: #a52a2a; /* Цвет заголовка */
+  font-size: 14pt; /* Размер шрифта в пунктах */
+  font-family:'Comic Sans MS', sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+
+
+p {
+  margin-left: 20px; /* Отступ слева в пикселах */
+  margin-right: 20px; /* Отступ справа в пикселах */
+  font-family:'Comic Sans MS', sans-serif;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  font-size: 12pt;
+  }
+
+a {
+    text-align: center; /* Выравнивание по ширине */
+    font-family:'Comic Sans MS', sans-serif;
+    font-size: 12pt;
+  }
+   
+.footer {
+    min-width: 270px;
+    width: 316pt; 
+    height: 50px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    top: 90%;
+    left: 0;
+    right: 0;
+    position: fixed; /* Фиксированное положение */
+    margin: auto; /* Выравниваем по центру */
+    background-color: #ffe;
+    border: 2px solid #FFB6C1;
+    border-radius: 15px 15px 15px 15px;
+    color: #312F2F; 
+    text-align: center;
+  }
+
+

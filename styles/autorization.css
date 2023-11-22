@@ -1,0 +1,111 @@
+body {
+    height: 100%;
+    background-size: cover;
+    background: #FFFFE0 url(../img/background2.jpg); /* Фоновый цвет и фоновый рисунок*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: spase; /* Изображение повторяется по горизонтали */
+    margin: 0%;
+  }
+  .page { 
+    margin-left: 60px; /* Отступ слева в пикселах */
+    margin-right: 60px; /* Отступ справа в пикселах */
+    background-color: #FFA07A;
+    min-height: 100vh;
+    max-width: 450px;
+    margin: auto; /* Выравниваем по центру */
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #FF6347;
+  }
+
+  .hat {
+    background-color: #FA8072;
+    margin: auto; /* Выравниваем по центру */
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid #FF6347;
+  }
+
+  h1 {
+    color: #312F2F; /* Цвет заголовка */
+    text-align: center;
+    padding-top: 1%;
+    font-stretch: condensed;
+    font-size: 16pt; /* Размер шрифта в пунктах */
+    font-family:'Comic Sans MS', sans-serif; /* Семейство шрифтов */
+    font-weight: 700; /* Нормальное начертание текста  */
+  }
+  h3 {
+    text-align: center;
+    color: #a52a2a; /* Цвет заголовка */
+    font-size: 12pt; /* Размер шрифта в пунктах */
+    font-family:'Comic Sans MS', sans-serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+  }
+  p {
+    margin-left: 20px; /* Отступ слева в пикселах */
+    margin-right: 20px; /* Отступ справа в пикселах */
+    font-family:'Comic Sans MS', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    font-size: 12pt;
+  }
+  .registration {
+    margin-left: 20px; /* Отступ слева в пикселах */
+    margin-right: 20px; /* Отступ справа в пикселах */
+    font-family:'Comic Sans MS', sans-serif; 
+    font-size: 12pt;
+  }
+
+  .registration_block {
+    text-align: center; /* Выравнивание по ширине */
+  }
+
+  a {
+    text-align: center; /* Выравнивание по ширине */
+    font-family:'Comic Sans MS', sans-serif;
+    font-size: 12pt;
+  }
+   
+  .footer {
+    min-width: 270pt;
+    width: 316pt; 
+    height: 50px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    top: 90%;
+    left: 0;
+    right: 0;
+    position: fixed; /* Фиксированное положение */
+    margin: auto; /* Выравниваем по центру */
+    background-color: #FFE8DB;
+    border: 1px solid #9932CC;
+    border-radius: 15px 15px 0px 0px;
+    color: #312F2F; 
+  }
+
+  .button {
+    width: 110pt;
+    border-radius: 15px;
+    border: solid 1px rgb(237, 145, 145);
+    padding: 5px;
+    font-size: 10pt;
+    font-family:'Comic Sans MS', sans-serif;
+  }
+
+  .input {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #FF6347;
+    font-family:'Comic Sans MS', sans-serif;
+    background-color: #FFFFE0;
+  }
+
+  .input_password {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #FF6347;
+    font-family:'Comic Sans MS', sans-serif;
+    background-color: #FFFFE0;
+  }
+
